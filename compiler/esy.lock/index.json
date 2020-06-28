@@ -1,5 +1,5 @@
 {
-  "checksum": "072ae7b49c22c4fa791807f5f0788f1b",
+  "checksum": "f25477117eeb215c68349d98e1637b2f",
   "root": "compiler@link-dev:./esy.json",
   "node": {
     "ocaml@4.10.0@d41d8cd9": {
@@ -33,7 +33,7 @@
       ],
       "devDependencies": [
         "@opam/reason@opam:3.6.0@2da53ff9",
-        "@opam/ocaml-lsp-server@github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#c6d632185e61e474d4e663540ab542352123a1b6@d41d8cd9"
+        "@opam/ocaml-lsp-server@github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#ce1840355541ff60b999e39388835027f89d8798@d41d8cd9"
       ],
       "installConfig": { "pnp": false }
     },
@@ -735,16 +735,16 @@
         "@opam/dune@opam:2.6.0@3a9808e6"
       ]
     },
-    "@opam/ocaml-lsp-server@github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#c6d632185e61e474d4e663540ab542352123a1b6@d41d8cd9": {
+    "@opam/ocaml-lsp-server@github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#ce1840355541ff60b999e39388835027f89d8798@d41d8cd9": {
       "id":
-        "@opam/ocaml-lsp-server@github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#c6d632185e61e474d4e663540ab542352123a1b6@d41d8cd9",
+        "@opam/ocaml-lsp-server@github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#ce1840355541ff60b999e39388835027f89d8798@d41d8cd9",
       "name": "@opam/ocaml-lsp-server",
       "version":
-        "github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#c6d632185e61e474d4e663540ab542352123a1b6",
+        "github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#ce1840355541ff60b999e39388835027f89d8798",
       "source": {
         "type": "install",
         "source": [
-          "github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#c6d632185e61e474d4e663540ab542352123a1b6"
+          "github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#ce1840355541ff60b999e39388835027f89d8798"
         ]
       },
       "overrides": [],
@@ -1215,6 +1215,7 @@
         "@opam/grain_dypgen@opam:0.1@0b95a143",
         "@opam/extlib@opam:1.7.7@750728e7", "@opam/dune@opam:2.6.0@3a9808e6",
         "@opam/cmdliner@opam:1.0.4@93208aac",
+        "@opam/binaryen@github:grain-lang/binaryen.ml:binaryen.opam#d399022@d41d8cd9",
         "@opam/batteries@opam:3.0.0@8b2b498b",
         "@esy-ocaml/substs@0.0.1@d41d8cd9"
       ],
@@ -1231,6 +1232,7 @@
         "@opam/grain_dypgen@opam:0.1@0b95a143",
         "@opam/extlib@opam:1.7.7@750728e7", "@opam/dune@opam:2.6.0@3a9808e6",
         "@opam/cmdliner@opam:1.0.4@93208aac",
+        "@opam/binaryen@github:grain-lang/binaryen.ml:binaryen.opam#d399022@d41d8cd9",
         "@opam/batteries@opam:3.0.0@8b2b498b"
       ]
     },
@@ -1498,6 +1500,23 @@
         "@opam/base-unix@opam:base@87d0b2eb"
       ]
     },
+    "@opam/conf-python-3@opam:1.0.0@a6b2949d": {
+      "id": "@opam/conf-python-3@opam:1.0.0@a6b2949d",
+      "name": "@opam/conf-python-3",
+      "version": "opam:1.0.0",
+      "source": {
+        "type": "install",
+        "source": [ "no-source:" ],
+        "opam": {
+          "name": "conf-python-3",
+          "version": "1.0.0",
+          "path": "esy.lock/opam/conf-python-3.1.0.0"
+        }
+      },
+      "overrides": [],
+      "dependencies": [ "@esy-ocaml/substs@0.0.1@d41d8cd9" ],
+      "devDependencies": []
+    },
     "@opam/conf-openssl@opam:2@fddedae6": {
       "id": "@opam/conf-openssl@opam:2@fddedae6",
       "name": "@opam/conf-openssl",
@@ -1526,6 +1545,23 @@
           "name": "conf-m4",
           "version": "1",
           "path": "esy.lock/opam/conf-m4.1"
+        }
+      },
+      "overrides": [],
+      "dependencies": [ "@esy-ocaml/substs@0.0.1@d41d8cd9" ],
+      "devDependencies": []
+    },
+    "@opam/conf-cmake@opam:1@75ae6bc3": {
+      "id": "@opam/conf-cmake@opam:1@75ae6bc3",
+      "name": "@opam/conf-cmake",
+      "version": "opam:1",
+      "source": {
+        "type": "install",
+        "source": [ "no-source:" ],
+        "opam": {
+          "name": "conf-cmake",
+          "version": "1",
+          "path": "esy.lock/opam/conf-cmake.1"
         }
       },
       "overrides": [],
@@ -1578,6 +1614,26 @@
       "devDependencies": [
         "ocaml@4.10.0@d41d8cd9", "@opam/easy-format@opam:1.3.2@0484b3c4",
         "@opam/dune@opam:2.6.0@3a9808e6"
+      ]
+    },
+    "@opam/binaryen@github:grain-lang/binaryen.ml:binaryen.opam#d399022@d41d8cd9": {
+      "id":
+        "@opam/binaryen@github:grain-lang/binaryen.ml:binaryen.opam#d399022@d41d8cd9",
+      "name": "@opam/binaryen",
+      "version": "github:grain-lang/binaryen.ml:binaryen.opam#d399022",
+      "source": {
+        "type": "install",
+        "source": [ "github:grain-lang/binaryen.ml:binaryen.opam#d399022" ]
+      },
+      "overrides": [],
+      "dependencies": [
+        "ocaml@4.10.0@d41d8cd9", "@opam/dune@opam:2.6.0@3a9808e6",
+        "@opam/conf-python-3@opam:1.0.0@a6b2949d",
+        "@opam/conf-cmake@opam:1@75ae6bc3",
+        "@esy-ocaml/substs@0.0.1@d41d8cd9"
+      ],
+      "devDependencies": [
+        "ocaml@4.10.0@d41d8cd9", "@opam/dune@opam:2.6.0@3a9808e6"
       ]
     },
     "@opam/batteries@opam:3.0.0@8b2b498b": {
