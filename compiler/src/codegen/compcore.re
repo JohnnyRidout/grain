@@ -738,14 +738,15 @@ let call_decref_cleanup_locals = (wasm_mod, env, args) =>
     args,
     Type.int32,
   );
+let decref_cleanup_globals_name = name_of_memory_tracing_func(
+    runtime_mod,
+    decref_cleanup_globals_ident,
+    decref_ignore_zeros_ident,
+  );
 let call_decref_cleanup_globals = (wasm_mod, env, args) =>
   Expression.call(
     wasm_mod,
-    name_of_memory_tracing_func(
-      runtime_mod,
-      decref_cleanup_globals_ident,
-      decref_ignore_zeros_ident,
-    ),
+    decref_cleanup_globals_name,
     args,
     Type.int32,
   );
