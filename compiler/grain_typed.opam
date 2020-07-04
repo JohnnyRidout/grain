@@ -9,7 +9,7 @@ homepage: "https://grain-lang.org"
 doc: "https://grain-lang.org/docs/"
 bug-reports: "https://github.com/grain-lang/grain/issues"
 depends: [
-  "dune" {>= "2.0"}
+  "dune" {>= "2.6"}
   "reason" {>= "3.6.0"}
   "ocamlfind" {build & >= "1.7.3"}
   "ocamlbuild" {build & >= "0.12.0"}

@@ -4347,8 +4347,6 @@ let () =
         | None => "<unknown>"
         | Some(n) => n
         };
-      /* let fmt_module _ m = Wasm.Sexpr.to_string 80 (Wasm.Arrange.module_ m) in */
-      Module.print(wasm_mod);
       let s =
         Printf.sprintf(
           "WASM Runner Exception in %s: %s\n",
