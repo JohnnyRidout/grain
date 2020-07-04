@@ -1,5 +1,5 @@
 {
-  "checksum": "f25477117eeb215c68349d98e1637b2f",
+  "checksum": "4608fb3249f58585075ff9259ce6183b",
   "root": "compiler@link-dev:./esy.json",
   "node": {
     "ocaml@4.10.0@d41d8cd9": {
@@ -1215,7 +1215,7 @@
         "@opam/grain_dypgen@opam:0.1@0b95a143",
         "@opam/extlib@opam:1.7.7@750728e7", "@opam/dune@opam:2.6.0@3a9808e6",
         "@opam/cmdliner@opam:1.0.4@93208aac",
-        "@opam/binaryen@github:grain-lang/binaryen.ml:binaryen.opam#d399022@d41d8cd9",
+        "@opam/binaryen@github:grain-lang/binaryen.ml:binaryen.opam#73d71bb@d41d8cd9",
         "@opam/batteries@opam:3.0.0@8b2b498b",
         "@esy-ocaml/substs@0.0.1@d41d8cd9"
       ],
@@ -1232,7 +1232,7 @@
         "@opam/grain_dypgen@opam:0.1@0b95a143",
         "@opam/extlib@opam:1.7.7@750728e7", "@opam/dune@opam:2.6.0@3a9808e6",
         "@opam/cmdliner@opam:1.0.4@93208aac",
-        "@opam/binaryen@github:grain-lang/binaryen.ml:binaryen.opam#d399022@d41d8cd9",
+        "@opam/binaryen@github:grain-lang/binaryen.ml:binaryen.opam#73d71bb@d41d8cd9",
         "@opam/batteries@opam:3.0.0@8b2b498b"
       ]
     },
@@ -1616,14 +1616,14 @@
         "@opam/dune@opam:2.6.0@3a9808e6"
       ]
     },
-    "@opam/binaryen@github:grain-lang/binaryen.ml:binaryen.opam#d399022@d41d8cd9": {
+    "@opam/binaryen@github:grain-lang/binaryen.ml:binaryen.opam#73d71bb@d41d8cd9": {
       "id":
-        "@opam/binaryen@github:grain-lang/binaryen.ml:binaryen.opam#d399022@d41d8cd9",
+        "@opam/binaryen@github:grain-lang/binaryen.ml:binaryen.opam#73d71bb@d41d8cd9",
       "name": "@opam/binaryen",
-      "version": "github:grain-lang/binaryen.ml:binaryen.opam#d399022",
+      "version": "github:grain-lang/binaryen.ml:binaryen.opam#73d71bb",
       "source": {
         "type": "install",
-        "source": [ "github:grain-lang/binaryen.ml:binaryen.opam#d399022" ]
+        "source": [ "github:grain-lang/binaryen.ml:binaryen.opam#73d71bb" ]
       },
       "overrides": [],
       "dependencies": [
