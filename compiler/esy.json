@@ -24,7 +24,7 @@
     "@opam/grain_typed": "*",
     "@opam/grain_middle_end": "*",
     "@opam/grain_codegen": "*",
-    "ocaml": "~4.10.0"
+    "ocaml": "~4.9.0"
   },
   "devDependencies": {
     "@opam/reason": "*",
@@ -38,7 +38,7 @@
     "@opam/grain_typed": "link:./grain_typed.opam",
     "@opam/grain_middle_end": "link:./grain_middle_end.opam",
     "@opam/grain_codegen": "link:./grain_codegen.opam",
-    "@opam/binaryen": "grain-lang/binaryen.ml:binaryen.opam#73d71bb"
+    "@opam/binaryen": "grain-lang/binaryen.ml:binaryen.opam#ce017a7"
   },
   "installConfig": {
     "pnp": false

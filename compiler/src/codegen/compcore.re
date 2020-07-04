@@ -4328,6 +4328,7 @@ let compile_wasm_module = (~env=?, ~name=?, prog) => {
        start=None;
      } in */
   validate_module(~name?, wasm_mod);
+  Module.optimize wasm_mod;
   wasm_mod;
 };
 
